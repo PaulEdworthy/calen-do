@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Calen-do</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="title">Calen-do</h1>
+    <p>A calendar style to-do list</p>
+    <p>Click any cell to add a task</p>
+  </header>
+  <p class="month"></p>
+  <div class="container">
+    <div class="day">SUN</div>
+    <div class="day">MON</div>
+    <div class="day">TUE</div>
+    <div class="day">WED</div>
+    <div class="day">THU</div>
+    <div class="day">FRI</div>
+    <div class="day">SAT</div>
+  </div>
+  <div class="calendar"></div>
+
+  <div class="modal" id="modal">
+    <form class="form__container" >
+      <h1 class="form__title">Add A Task</h1>
+      <input class="form__input" placeholder="Task name" required>
+      <ul class="list"></ul>
+      <div class="btn__group">
+        <button class="btn btn__submit" type="button">Add</button>
+        <button class="btn btn__cancel" type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
